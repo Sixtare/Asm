@@ -1,0 +1,9 @@
+init:
+
+LDA #$2A
+STA $13BF
+
+LDA #$0C
+STA $0100
+
+RTL

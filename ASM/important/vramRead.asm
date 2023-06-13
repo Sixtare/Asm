@@ -1,0 +1,34 @@
+	LDA #$80
+	STA $2115
+
+	LDA #$81
+	STA $4300
+	
+	LDA #$C7
+	STA $2116
+	
+	LDA #$51
+	STA $2117	
+
+	LDA $2139
+	
+	LDA #$39
+	STA $4301
+
+	LDA #$00
+	STA $4302
+	
+	LDA #$A1
+	STA $4303
+
+	LDA #$7F
+	STA $4304
+
+	LDA #$F1
+	STA $4305
+
+	STZ $4306
+	STZ $4307
+
+	LDA #$01
+	STA $420B

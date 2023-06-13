@@ -1,0 +1,23 @@
+main:
+
+LDA $18
+AND #%00100000
+BNE .spawn
+RTL
+
+.spawn
+JSL $02A9E4
+TYX
+LDA #$09
+STA $14C8,X
+LDA $64
+ORA $15F6
+STA $15F6
+LDA #$04
+STA $9E,X
+LDA $96
+STA $D8,X	;YPOS
+LDA $94
+STA $E4,X 	;XPOS
+
+RTL
